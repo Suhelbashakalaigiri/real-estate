@@ -17,7 +17,7 @@ const userSchema=new mongoose.Schema ({
     },
     avatar:{
         type: String,
-        default: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fprofile_7915522&psig=AOvVaw0eKk0kiVJLEvdDRC0B8LNo&ust=1742926227743000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjAjryoo4wDFQAAAAAdAAAAABAE",
+        default: "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg",
     }
 },{ timestamps: true});
 
