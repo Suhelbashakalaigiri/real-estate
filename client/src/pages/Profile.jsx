@@ -52,7 +52,7 @@ export default function Profile() {
       <h1 className="font-semibold my-7 text-3xl text-center">Profile</h1>
     <form className='flex flex-col gap-4'>
       <input onChange={(e) => setFile(e.target.files[0])} type='file' ref={fileRef} hidden accept='image/*'/>
-      <img onClick={()=>fileRef.current.click()} src={formData.avatar || currentUser.avatar} alt="Profile" className='rounded-full  h-25 w-25 object-cover cursor-pointer self-center mt-2'/>
+      <img onClick={()=>fileRef.current.click()} src={formData.avatar || currentUser.avatar} alt="Profile" className='rounded-full  h-14 w-14 object-cover cursor-pointer self-center mt-2'/>
       <p className="text-sm self-center">
         {fileUploadError ? (
           <span className='text-red-700'>Error Image Upload(image size must be less than 2MB)</span>
